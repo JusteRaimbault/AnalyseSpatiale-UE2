@@ -1,0 +1,561 @@
+Identification_Information:
+  Citation:
+    Citation_Information:
+      Originator: National Atlas of the United States
+      Publication_Date: 201012
+      Title: Income and Employment in the United States, 2004-2008
+      Publication_Information:
+        Publication_Place: Reston, VA
+        Publisher: National Atlas of the United States
+      Online_Linkage: 
+        http://nationalatlas.gov/atlasftp.html?openChapters=chppeopl#chppeopl 
+
+  Description:
+    Abstract:  
+      This map layer portrays 2004-2008 per capita personal income, annual 
+      number of full-time and part-time jobs, average wage per job in dollars, 
+      population, and per capita number of jobs for counties in the United 
+      States.  
+
+      Per capita personal income is calculated as the total personal income of 
+      the residents of a county divided by the resident population of the 
+      county.  The Census Bureau's annual midyear population estimates were used 
+      in the computation.  
+
+      The average annual number of full-time and part-time jobs includes all 
+      jobs for which wages and salaries are paid, except jury and witness 
+      service and paid employment of prisoners.  The jobs are counted at equal 
+      weight, and employees, sole proprietors, and active partners are all 
+      included.  Unpaid family workers and volunteers are not included.
+      
+      Average wage per job is the wage and salary disbursements divided by the   
+      number of wage and salary jobs in the county.  Wage and salary 
+      disbursements consist of the monetary remuneration of employees, including 
+      the compensation of corporate officers; commissions, tips, and bonuses; 
+      and receipts in kind, or pay-in-kind, such as the meals furnished to the   
+      employees of restaurants.  It reflects the amount of payments disbursed, 
+      but not necessarily earned during the year.
+
+      Per capita number of jobs is calculated as the average annual number of 
+      full-time and part-time jobs in a county divided by the resident 
+      population of the county.  The Census Bureau's annual midyear population 
+      estimates were used in the computation. 
+
+      All dollar estimates are in current dollars, not adjusted for inflation.
+      The information in this map layer comes from the Regional Economic 
+      Information System (REIS) that is distributed by the Bureau of Economic 
+      Analysis, http://www.bea.gov/.
+
+    Purpose: 
+      These data are intended for geographic display and analysis at the 
+      national level, and for large regional areas.  The data should be 
+      displayed and analyzed at scales appropriate for 1:2,000,000-scale data.  
+      No responsibility is assumed by the National Atlas of the United States in 
+      the use of these data.
+
+  Time_Period_of_Content:
+    Time_Period_Information:
+      Range_of_Dates/Times:
+        Beginning_Date: 2004
+        Ending_Date: 2008
+    Currentness_Reference: Ground condition
+
+  Status:
+    Progress: Complete
+    Maintenance_and_Update_Frequency: None planned
+
+  Spatial_Domain:
+    Bounding_Coordinates:
+      West_Bounding_Coordinate: 170
+      East_Bounding_Coordinate: -64
+      North_Bounding_Coordinate: 72
+      South_Bounding_Coordinate: 17
+
+  Keywords:
+    Theme:
+      Theme_Keyword_Thesaurus: ISO 19115 Topic Category
+      Theme_Keyword: Economy
+      Theme_Keyword: Society
+    Theme:
+      Theme_Keyword_Thesaurus: None
+      Theme_Keyword: Income
+      Theme_Keyword: Personal income
+      Theme_Keyword: Per capita income
+      Theme_Keyword: Employment
+      Theme_Keyword: Wage and salary employment	
+      Theme_Keyword: Jobs
+      Theme_Keyword: Full-time jobs	
+      Theme_Keyword: Part-time jobs	
+      Theme_Keyword: Wages
+      Theme_Keyword: Average wage	
+      Theme_Keyword: Disbursements
+      Theme_Keyword: Per capita number of jobs
+      Theme_Keyword: Population
+
+    Place:
+      Place_Keyword_Thesaurus:  
+        U.S. Department of Commerce, 1995, Countries, Dependencies, Areas of 
+        Special Sovereignty, and Their Principal Administrative Divisions 
+        (Federal Information Processing Standard (FIPS) 10-4): Washington, DC, 
+        National Institute of Standards and Technology.
+      Place_Keyword:  United States
+    Place:
+      Place_Keyword_Thesaurus: None
+      Place_Keyword: USA
+    Place:
+      Place_Keyword_Thesaurus:  
+        U.S. Department of Commerce, 1987, Codes for the Identification of the 
+        States, the District of Columbia and the Outlying Areas of The United 
+        States, and Associated Areas (Federal Information Processing Standard
+        5-2):  Washington, DC, National Institute of Standards and Technology.
+      Place_Keyword: Alabama
+      Place_Keyword: Alaska
+      Place_Keyword: Arizona
+      Place_Keyword: Arkansas
+      Place_Keyword: California
+      Place_Keyword: Colorado
+      Place_Keyword: Connecticut
+      Place_Keyword: Delaware
+      Place_Keyword: District of Columbia
+      Place_Keyword: Florida
+      Place_Keyword: Georgia
+      Place_Keyword: Hawaii
+      Place_Keyword: Idaho
+      Place_Keyword: Illinois
+      Place_Keyword: Indiana
+      Place_Keyword: Iowa
+      Place_Keyword: Kansas
+      Place_Keyword: Kentucky
+      Place_Keyword: Louisiana
+      Place_Keyword: Maine
+      Place_Keyword: Maryland
+      Place_Keyword: Massachusetts
+      Place_Keyword: Michigan
+      Place_Keyword: Minnesota
+      Place_Keyword: Mississippi
+      Place_Keyword: Missouri
+      Place_Keyword: Montana
+      Place_Keyword: Nebraska
+      Place_Keyword: Nevada
+      Place_Keyword: New Hampshire
+      Place_Keyword: New Jersey
+      Place_Keyword: New Mexico
+      Place_Keyword: New York
+      Place_Keyword: North Carolina
+      Place_Keyword: North Dakota
+      Place_Keyword: Ohio
+      Place_Keyword: Oklahoma
+      Place_Keyword: Oregon
+      Place_Keyword: Pennsylvania
+      Place_Keyword: Rhode Island
+      Place_Keyword: South Carolina
+      Place_Keyword: South Dakota
+      Place_Keyword: Tennessee
+      Place_Keyword: Texas
+      Place_Keyword: Utah
+      Place_Keyword: Vermont
+      Place_Keyword: Virginia
+      Place_Keyword: Washington
+      Place_Keyword: West Virginia
+      Place_Keyword: Wisconsin
+      Place_Keyword: Wyoming
+
+  Access_Constraints: None
+  Use_Constraints:  
+    None.  Acknowledgment of the National Atlas of the United States of America 
+    would be appreciated in products derived from these data.  
+
+  Point_of_Contact:
+    Contact_Information:
+      Contact_Person_Primary:
+        Contact_Person: Jay Donnelly 
+        Contact_Organization: National Atlas of the United States 
+      Contact_Address: 
+        Address_Type: Mailing and physical address 
+        Address: 12201 Sunrise Valley Drive 
+        Address: Room 2D200 
+        City: Reston 
+        State_or_Province: VA 
+        Postal_Code: 20192 
+      Contact_Voice_Telephone: 703-648-5395
+      Contact_Electronic_Mail_Address: atlasmail@usgs.gov
+
+Data_Quality_Information:
+  Logical_Consistency_Report: 
+    The map layer was checked for topological consistency using the ArcInfo 
+    command BUILD.  No other checks for logical consistency were performed on 
+    this map layer.
+  Completeness_Report:
+    This map layer includes estimates from the Bureau of Economic Analysis, 
+    Economic and Statistics Administration, U.S. Department of Commerce for 
+    per capita personal income, annual number of full-time and part-time jobs, 
+    average wage per job in dollars, population, and per capita number of jobs. 
+    It is based on county data for all 50 States and the District of Columbia 
+    and is for the years 2004-2008.  
+
+  Lineage:
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: National Atlas of the United States
+          Publication_Date: 200506
+          Title: County Boundaries of the United States, 2001
+          Publication_Information:
+            Publication_Place: Reston, VA
+            Publisher: National Atlas of the United States
+      Source_Scale_Denominator: 2000000
+      Type_of_Source_Media: Online
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 200506
+        Source_Currentness_Reference: Publication date
+      Source_Citation_Abbreviation: ATLAS-CNTY
+      Source_Contribution: Spatial and attribute information
+
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator:  
+            Bureau of Economic Analysis, Economic and Statistics 
+            Administration, U.S. Department of Commerce 
+          Publication_Date: 200906
+          Title: Regional Economic Accounts, 2004-2008
+          Publication_Information:
+            Publication_Place: Washington, DC
+            Publisher: Bureau of Economic Analysis 
+      Type_of_Source_Media: Online
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 200812
+        Source_Currentness_Reference: Publication date
+      Source_Citation_Abbreviation: BEA-REA2008
+      Source_Contribution: Spatial and attribute information
+
+    Process_Step:
+      Process_Description: 
+        Boundaries for Puerto Rico, the U.S. Virgin Islands, and the water 
+        bodies were deleted from ATLAS-CNTY.  Using information from the file 
+        ECONLIST.PRN on BEA-REA2008 the following counties and cities in 
+        Virginia were merged:
+        > Albemarle County and Charlottesville
+        > Alleghany County, Clifton Forge, and Covington
+        > Augusta County, Staunton, and Waynesboro
+        > Bedford County and Bedford city
+        > Campbell County and Lynchburg
+        > Carroll County and Galax
+        > Dinwiddie County, Colonial Heights, and Petersburg
+        > Fairfax County, Fairfax City, and Falls Church
+        > Frederick County and Winchester
+        > Greensville County and Emporia
+        > Henry County and Martinsville
+        > James City County and Williamsburg
+        > Montgomery County and Radford
+        > Pittsylvania County and Danville
+        > Prince George County and Hopewell
+        > Prince William County, Manassas, and Manassas Park
+        > Roanoke County and Salem
+        > Rockbridge County, Buena Vista, and Lexington
+        > Rockingham County and Harrisonburg
+        > Southampton County and Franklin 
+        > Spotsylvania County and Fredericksburg 
+        > Washington County and Bristol
+        > Wise County and Norton
+        > York County and Poquoson
+        >
+        From BEA-REA2008, the files containing total personal income, per 
+        capita personal income, annual number of full-time and part-time jobs, 
+        and average wage per job information (ca13.dfx and ca34.dfx) were 
+        downloaded as an Excel file and joined to the edited ATLAS-CNTY map 
+        layer in ArcMap.  The resulting file was saved as a shapefile.
+      Source_Used_Citation_Abbreviation: ATLAS-CNTY
+      Source_Used_Citation_Abbreviation: BEA-REA2008
+      Process_Date: 201012
+      Source_Produced_Citation_Abbreviation: ATLAS-INCOME_04_08
+
+Spatial_Data_Organization_Information:
+  Indirect_Spatial_Reference:  
+    U.S. Department of Commerce, 1987, Codes for the Identification of the 
+    States, the District of Columbia and the Outlying Areas of the United 
+    States, and Associated Areas (FIPS 5-2): Washington, DC, National Institute 
+    of Standards and Technology.
+
+    U.S. Department of Commerce, 1990, Counties and Equivalent Entities of the 
+    United States, Its Possessions, and Associated Areas (FIPS 6-4): Washington, 
+    DC, National Institute of Standards and Technology.
+
+Spatial_Reference_Information:
+  Horizontal_Coordinate_System_Definition:
+    Geographic:
+      Latitude_Resolution: 0.000278
+      Longitude_Resolution: 0.000278
+      Geographic_Coordinate_Units: Decimal degrees
+    Geodetic_Model:
+      Horizontal_Datum_Name: North American Datum of 1983
+      Ellipsoid_Name: GRS1980
+      Semi-major_Axis: 6378137  
+      Denominator_of_Flattening_Ratio: 298.257222
+
+Entity_and_Attribute_Information:
+  Detailed_Description:
+    Entity_Type:
+      Entity_Type_Label: 
+        Income and employment in the United States, 2004-2008 (described 
+        by bea009p020.dbf)
+      Entity_Type_Definition: 
+        Estimates of per capita personal income, annual number of full-time and 
+        part-time jobs, average wage per job (in dollars), population, and per 
+        capita number of jobs for the years 2004-2008.  
+      Entity_Type_Definition_Source: National Atlas of the United States
+    Attribute:
+      Attribute_Label: Shape
+      Attribute_Definition: The representation of the entity in the data.
+      Attribute_Definition_Source: National Atlas of the United States
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Polygon
+          Enumerated_Domain_Value_Definition: 2-dimensional element.
+          Enumerated_Domain_Value_Definition_Source: ESRI GIS software
+    Attribute:
+      Attribute_Label: Area
+      Attribute_Definition: 
+        The size of the shape in coverage units.  In the distributed 
+        file, coverage units represent square decimal degrees.
+      Attribute_Definition_Source: National Atlas of the United States
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0.000
+          Range_Domain_Maximum: 73.832
+    Attribute:
+      Attribute_Label: Perimeter
+      Attribute_Definition: 
+        The perimeter of the shape in coverage units.  In the distributed file, 
+        coverage units represent decimal degrees.
+      Attribute_Definition_Source: National Atlas of the United States
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0.012
+          Range_Domain_Maximum: 87.571
+    Attribute:
+      Attribute_Label: Bea009p020
+      Attribute_Definition: Internal feature number.
+      Attribute_Definition_Source: National Atlas of the United States
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 5976
+     Attribute:
+      Attribute_Label: Bea_fips
+      Attribute_Definition: 
+        The 5-digit FIPS code of the county or county equivalent that is used by 
+        the Bureau of Economic Analysis.
+      Attribute_Definition_Source: National Atlas of the United States
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name: 
+            Bureau of Economic Analysis Economic Areas , Regional Economic 
+            Accounts, 2004 (eastructure.xls)
+          Codeset_Source: 
+            U.S. Department of Commerce, Economic and Statistics Administration,
+            Bureau of Economic Analysis
+    Attribute:
+      Attribute_Label: Areatitle
+      Attribute_Definition: 
+        The name of the county or county equivalent that is used by the Bureau 
+        of Economic Analysis.
+      Attribute_Definition_Source: National Atlas of the United States
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name: 
+            Bureau of Economic Analysis Economic Areas , Regional Economic 
+            Accounts, 2004 (eastructure.xls)
+          Codeset_Source: 
+            U.S. Department of Commerce, Economic and Statistics Administration,
+            Bureau of Economic Analysis
+    Attribute: 
+      Attribute_Label: State 
+      Attribute_Definition: 
+        The two-character abbreviation for the name of the State or State 
+        equivalent in which the county is located. 
+      Attribute_Definition_Source: National Atlas of the United States 
+      Attribute_Domain_Values: 
+        Codeset_Domain: 
+          Codeset_Name: 
+            Codes for the Identification of the States, the District of Columbia 
+            and the Outlying Areas of the United States, and Associated Areas;
+            (Federal Information Processing Standard (FIPS) 5-2): Washington, 
+            DC, National Institute of Standards and Technology.
+          Codeset_Source: U.S. Department of Commerce 
+    Attribute:
+      Attribute_Label: State_fips
+      Attribute_Definition: 
+        The 2-digit FIPS code of the State or State equivalent.
+      Attribute_Definition_Source: National Atlas of the United States
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name: 
+            Counties and Equivalent Entities of the United States, Its 
+            Possessions, and Associated Areas, FIPS 6-4, 1990.
+          Codeset_Source: 
+            U.S. Department of Commerce, National Institute of Standards
+            and Technology
+    Attribute:
+      Attribute_Label: B13_ZZZZ
+      Attribute_Definition: 
+        Estimated per capita personal income for the county, for the year ZZZZ. 
+        Per capita personal income is calculated as the total personal income of 
+        the residents of a county divided by the resident population of the 
+        county.  The Census Bureau's annual midyear population estimates were 
+        used in the computation.  All dollar estimates are in current dollars, 
+        not adjusted for inflation.
+      Attribute_Definition_Source: National Atlas of the United States
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 140275
+      Attribute_Domain_Values:
+        Enumerated_Domain: 
+          Enumerated_Domain_Value: -9999.00
+          Enumerated_Domain_Value_Definition: No data
+          Enumerated_Domain_Value_Definition_Source: 
+            National Atlas of the United States
+    Attribute:
+      Attribute_Label: A34_ZZZZ
+      Attribute_Definition: 
+        Average annual number of jobs for the county, for the year ZZZZ.  The 
+        annual number of jobs includes all full-time and part-time jobs for 
+        which wages and salaries are paid, except jury and witness service and 
+        paid employment of prisoners.  The jobs are counted at equal weight, and 
+        employees, sole proprietors, and active partners are all included.  
+        Unpaid family workers and volunteers are not included.
+      Attribute_Definition_Source: National Atlas of the United States
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 5807134
+      Attribute_Domain_Values:
+        Enumerated_Domain: 
+          Enumerated_Domain_Value: -9999.00
+          Enumerated_Domain_Value_Definition: No data
+          Enumerated_Domain_Value_Definition_Source: 
+            National Atlas of the United States
+    Attribute:
+      Attribute_Label: B34_ZZZZ
+      Attribute_Definition: 
+        Average wage per job for the county, for the year ZZZZ.  The average 
+        wage per job is the wage and salary disbursements divided by the number 
+        of wage and salary jobs in the county.  Wage and salary disbursements 
+        consist of the monetary remuneration of employees, including the 
+        compensation of corporate officers; commissions, tips, and bonuses; and 
+        receipts in kind, or pay-in-kind, such as the meals furnished to the 
+        employees of restaurants.  It reflects the amount of payments disbursed, 
+        but not necessarily earned during the year.  All dollar estimates are in 
+        current dollars, not adjusted for inflation.
+      Attribute_Definition_Source: National Atlas of the United States
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 99482
+      Attribute_Domain_Values:
+        Enumerated_Domain: 
+          Enumerated_Domain_Value: -9999.00
+          Enumerated_Domain_Value_Definition: No data
+          Enumerated_Domain_Value_Definition_Source: 
+            National Atlas of the United States
+    Attribute:
+      Attribute_Label: Pop_ZZZZ
+      Attribute_Definition: 
+        The resident population for the county, for the year ZZZZ.  This is the
+        Census Bureau's annual midyear population estimate.
+      Attribute_Definition_Source: National Atlas of the United States
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 9808494
+      Attribute_Domain_Values:
+        Enumerated_Domain: 
+          Enumerated_Domain_Value: -9999.00
+          Enumerated_Domain_Value_Definition: No data
+          Enumerated_Domain_Value_Definition_Source: 
+            National Atlas of the United States
+    Attribute:
+      Attribute_Label: Job_ZZZZ
+      Attribute_Definition: 
+        The estimated per capita number of jobs for the county, for the year 
+        ZZZZ.  Per capita number of jobs is calculated as average annual number 
+        of jobs in a county divided by the resident population of the county.  
+        The Census Bureau's annual midyear population estimates were used in the 
+        computation.  
+      Attribute_Definition_Source: National Atlas of the United States
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0.0
+          Range_Domain_Maximum: 3.582
+      Attribute_Domain_Values:
+        Enumerated_Domain: 
+          Enumerated_Domain_Value: -9999.00
+          Enumerated_Domain_Value_Definition: No data
+          Enumerated_Domain_Value_Definition_Source: 
+            National Atlas of the United States
+
+Distribution_Information:
+  Distributor:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: 
+          Earth Science Information Center, U.S. Geological Survey
+      Contact_Address:
+        Address_Type: Mailing address
+        Address: 507 National Center
+        City: Reston
+        State_or_Province: VA
+        Postal_Code: 20192
+      Contact_Voice_Telephone: 1-888-ASK-USGS (1-888-275-8747)
+      Contact_Voice_Telephone: 703-648-5920
+      Contact_Instructions: 
+        In addition to the address above there are other ESIC offices throughout 
+        the country.  A full list of these offices is at
+        http://geography.usgs.gov/esic/esic_index.html
+  Distribution_Liability:  
+    Although these data have been processed successfully on a computer system at 
+    the U.S. Geological Survey, no warranty expressed or implied is made by the 
+    U.S. Geological Survey regarding the utility of the data on any other  
+    system, nor shall the act of distribution constitute any such warranty.  No 
+    responsibility is assumed by the U.S. Geological Survey in the use of these 
+    data.  
+  Standard_Order_Process:
+    Digital_Form:
+      Digital_Transfer_Information:
+        Format_Name: ESRI Shapefile
+      Digital_Transfer_Option:
+        Online_Option:
+          Computer_Contact_Information:
+            Network_Address:
+              Network_Resource_Name:
+                http://nationalatlas.gov/atlasftp.html?openChapters=chppeopl#chppeopl
+    Fees: There is no charge for the map layer.
+
+Metadata_Reference_Information:
+  Metadata_Date: 20101229
+  Metadata_Contact:
+    Contact_Information:
+      Contact_Person_Primary:
+        Contact_Person: Terry Higgins
+        Contact_Organization: National Atlas of the United States
+      Contact_Address:
+        Address_Type: Mailing address
+        Address: 1400 Independence Road
+        Address: MS 760
+        City: Rolla
+        State_or_Province: MO
+        Postal_Code: 65401
+      Contact_Voice_Telephone: 573-308-3592
+      Contact_Electronic_Mail_Address: atlasmail@usgs.gov
+  Metadata_Standard_Name:
+    FGDC Content Standards for Digital Geospatial Metadata 
+  Metadata_Standard_Version: FGDC-STD-001-1998
+  Metadata_Security_Information: 
+    Metadata_Security_Classification_System: None
+    Metadata_Security_Classification: Unclassified
+    Metadata_Security_Handling_Description: None
