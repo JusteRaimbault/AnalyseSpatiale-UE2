@@ -1,4 +1,4 @@
-setwd('/Users/Formation/AnalyseSpatiale-UE2-master/AnalyseSpatiale-UE2-master/2-InteractionsSpatiales/TP/')
+setwd('AnalyseSpatiale-UE2/2-InteractionsSpatiales/TP/')
 
 #####
 # TP : Interaction spatiales
@@ -130,21 +130,71 @@ idfflows = readRDS('data/mobility/tabflows.Rds')
 # Fitter des modèles simples (pour chaque mode, pour l'ensemble des modes)
 summary(lm(data=idfflows, log(FLOW)~log(DIST)))
 
+summary(lm(data=idfflows[idfflows$MODE=='TC',], log(FLOW)~log(DIST)))
+summary(lm(data=idfflows[idfflows$MODE=='VP',], log(FLOW)~log(DIST)))
+summary(lm(data=idfflows[idfflows$MODE=='NM',], log(FLOW)~log(DIST)))
 
 # Matrices de temps de trajet
 times = readRDS('data/mobility/listtimes.Rds') 
 
-# Fitter des modèles prenant en compte la distance réseau
+# jointure
+idfflows = left_join(idfflows, times$TC, by=c('ORI'='ORI','DES'='DES'))
+names(idfflows)[9] = "TIME_TC"
+idfflows = left_join(idfflows, times$VPM, by=c('ORI'='ORI','DES'='DES'))
+idfflows = left_join(idfflows, times$VPS, by=c('ORI'='ORI','DES'='DES'))
+idfflows$TIME_VP = (idfflows$VAL.x + idfflows$VAL.y) / 2 # temps de trajet en VP moyenne de l'heure de pointe du matin et du soir
+idfflows$VAL.x = NULL ; idfflows$VAL.y = NULL
+
+# Fitter des modèles prenant en compte la distance-temps réseau
+summary(lm(data=idfflows[idfflows$MODE=='TC',], log(FLOW)~log(TIME_TC)))
+# -> meilleur modele en R2 pour le reseau TC
+
+summary(lm(data=idfflows[idfflows$MODE=='VP',], log(FLOW)~log(TIME_VP)))
+# -> moins bon pour la voiture
 
 
+# - donnees socio-economiques (a l'IRIS): raffiner les modèles
 
-# donnees socio-economiques (a l'IRIS): raffiner les modèles
-load('data/mobility/socioeco.RData')
+# charger dans une liste
+socioeco <- mget(load('data/mobility/socioeco.RData', envir=(temp <- new.env())), envir=temp)
+#  -> variables intéressantes : pops (populations), incomes, employment
+
+populations = socioeco$pops
+# garder seulement la population en 2011
+populations = populations[populations$year=="11",]
+populations$code_com = substr(populations$id,1, 5)
+populations_aggr = as_tibble(populations) %>% group_by(code_com) %>% summarise(population = sum(var,na.rm=T))
+
+# ajouter a la table des flux (origine)
+idfflows = left_join(idfflows,populations_aggr,by=c('ORI'='code_com'))
+names(idfflows)[11] = "POP_ORI"
+# idem destination
+idfflows = left_join(idfflows,populations_aggr,by=c('DES'='code_com'))
+names(idfflows)[12] = "POP_DES"
+
+# idem avec income et employment
+incomes = socioeco$incomes
+incomes = incomes[incomes$year=="11",]
+incomes$code_com = substr(incomes$id,1, 5)
+incomes_aggr = as_tibble(incomes) %>% group_by(code_com) %>% summarise(income = median(var,na.rm=T)) # revenu median
+idfflows = left_join(idfflows,incomes_aggr,by=c('ORI'='code_com'))
+names(idfflows)[13] = "INC_ORI"
+idfflows = left_join(idfflows,incomes_aggr,by=c('DES'='code_com'))
+names(idfflows)[14] = "INC_DES"
+
+employment = socioeco$employment
+employment_aggr = as_tibble(employment) %>% group_by(id) %>% summarise(employment = sum(var,na.rm=T))
+idfflows = left_join(idfflows,employment_aggr,by=c('ORI'='id'))
+names(idfflows)[15] = "EMP_ORI"
+idfflows = left_join(idfflows,employment_aggr,by=c('DES'='id'))
+names(idfflows)[16] = "EMP_DES"
 
 
+# Modele complet pour chaque mode
 
+summary(lm(data=idfflows[idfflows$MODE=='TC',], log(FLOW)~log(TIME_TC)+log(POP_ORI)+log(POP_DES)+log(INC_ORI)+log(INC_DES)+log(EMP_ORI)+log(EMP_DES)))
 
-
+summary(lm(data=idfflows[idfflows$MODE=='VP',], log(FLOW)~log(TIME_VP)+log(POP_ORI)+log(POP_DES)+log(INC_ORI)+log(INC_DES)+log(EMP_ORI)+log(EMP_DES)))
 
 
 
